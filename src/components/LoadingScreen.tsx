@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 export default function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const timeout = setTimeout(onComplete, 3000);
+    return () => clearTimeout(timeout);
+  }, [onComplete]);
 
   return (
     <motion.div

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { supportedLanguages } from './i18n';
 import LoadingScreen from './components/LoadingScreen';
@@ -28,25 +28,28 @@ function App() {
 
   return (
     <>
-      <AnimatePresence mode="wait">
+      <AnimatePresence>
         {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
       </AnimatePresence>
 
-      {!loading && (
-        <div className="bg-brand-dark min-h-screen">
-          <Navigation />
-          <Hero />
-          <ScrollStory />
-          <About />
-          <Infrastructure />
-          <TechStack />
-          <Projects />
-          <NetworkMap />
-          <Timeline />
-          <Contact />
-          <VisitorCounter />
-        </div>
-      )}
+      <motion.div
+        className="bg-brand-dark min-h-screen"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: loading ? 0 : 1 }}
+        transition={{ duration: 0.8, delay: loading ? 0 : 0.3 }}
+      >
+        <Navigation />
+        <Hero />
+        <ScrollStory />
+        <About />
+        <Infrastructure />
+        <TechStack />
+        <Projects />
+        <NetworkMap />
+        <Timeline />
+        <Contact />
+        <VisitorCounter />
+      </motion.div>
     </>
   );
 }
