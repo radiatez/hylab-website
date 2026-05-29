@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #0a0a0f;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0a0a0f;
+  color: #e4e4e7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a3a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00b4ff;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#00b4ff] to-[#00d4aa];
+  }
+
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.08);
+    @apply backdrop-blur-2xl border border-white/10;
+  }
+
+  .glow-border {
+    box-shadow: 0 0 0 1px rgba(0, 180, 255, 0.2),
+                0 0 20px rgba(0, 180, 255, 0.1),
+                inset 0 0 20px rgba(0, 180, 255, 0.05);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 40px rgba(0, 180, 255, 0.5),
+                 0 0 80px rgba(0, 180, 255, 0.3);
+  }
+
+  .circuit-line {
+    background: linear-gradient(90deg, transparent, rgba(0, 180, 255, 0.4), transparent);
+    height: 1px;
+  }
+}
