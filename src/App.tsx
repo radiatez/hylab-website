@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import TechStack from './components/TechStack';
 import Contact from './components/Contact';
+import VisitorCounter from './components/VisitorCounter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <TechStack />
       <Contact />
+      <VisitorCounter />
     </div>
   );
 }
