@@ -9,6 +9,8 @@ export default function VisitorCounter() {
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
+    if (!supabase) return;
+
     const sessionKey = 'hylab_visited';
     const alreadyVisited = sessionStorage.getItem(sessionKey);
 
