@@ -1,26 +1,43 @@
+import { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import LoadingScreen from './components/LoadingScreen';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import LaptopReveal from './components/LaptopReveal';
+import ScrollStory from './components/ScrollStory';
 import About from './components/About';
-import Services from './components/Services';
-import Projects from './components/Projects';
+import Infrastructure from './components/Infrastructure';
 import TechStack from './components/TechStack';
+import Projects from './components/Projects';
+import NetworkMap from './components/NetworkMap';
+import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import VisitorCounter from './components/VisitorCounter';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   return (
-    <div className="bg-brand-dark min-h-screen">
-      <Navigation />
-      <Hero />
-      <LaptopReveal />
-      <About />
-      <Services />
-      <Projects />
-      <TechStack />
-      <Contact />
-      <VisitorCounter />
-    </div>
+    <>
+      <AnimatePresence mode="wait">
+        {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
+      </AnimatePresence>
+
+      {!loading && (
+        <div className="bg-brand-dark min-h-screen">
+          <Navigation />
+          <Hero />
+          <ScrollStory />
+          <About />
+          <Infrastructure />
+          <TechStack />
+          <Projects />
+          <NetworkMap />
+          <Timeline />
+          <Contact />
+          <VisitorCounter />
+        </div>
+      )}
+    </>
   );
 }
 

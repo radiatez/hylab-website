@@ -10,29 +10,34 @@
 
 html {
   scroll-behavior: smooth;
-  background: #0a0a0f;
+  background: #050508;
 }
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background: #0a0a0f;
-  color: #e4e4e7;
+  background: #050508;
+  color: #e2e2ea;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background: rgba(0, 180, 255, 0.3);
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0f;
+  background: #050508;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2a2a3a;
-  border-radius: 3px;
+  background: #1a1a2e;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -41,31 +46,48 @@ body {
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#00b4ff] to-[#00d4aa];
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #00b4ff 0%, #7c3aed 100%);
+  }
+
+  .text-gradient-subtle {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #00b4ff 0%, #00d4aa 100%);
   }
 
   .glass {
-    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
   }
 
   .glass-strong {
-    background: rgba(255, 255, 255, 0.08);
-    @apply backdrop-blur-2xl border border-white/10;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .glow-border {
-    box-shadow: 0 0 0 1px rgba(0, 180, 255, 0.2),
-                0 0 20px rgba(0, 180, 255, 0.1),
-                inset 0 0 20px rgba(0, 180, 255, 0.05);
+  .glow-box {
+    box-shadow: 0 0 0 1px rgba(0, 180, 255, 0.15),
+                0 0 30px rgba(0, 180, 255, 0.08),
+                0 0 60px rgba(0, 180, 255, 0.04),
+                inset 0 0 30px rgba(0, 180, 255, 0.03);
   }
 
   .glow-text {
-    text-shadow: 0 0 40px rgba(0, 180, 255, 0.5),
-                 0 0 80px rgba(0, 180, 255, 0.3);
+    text-shadow: 0 0 60px rgba(0, 180, 255, 0.4),
+                 0 0 120px rgba(0, 180, 255, 0.2);
   }
 
-  .circuit-line {
-    background: linear-gradient(90deg, transparent, rgba(0, 180, 255, 0.4), transparent);
+  .neon-line {
+    background: linear-gradient(90deg, transparent, rgba(0, 180, 255, 0.6), transparent);
     height: 1px;
+  }
+
+  .dot-grid {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 32px 32px;
   }
 }

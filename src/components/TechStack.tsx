@@ -2,33 +2,33 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const techItems = [
-  { name: 'C#', category: 'language' },
-  { name: '.NET Framework', category: 'framework' },
+  { name: 'C#', category: 'lang' },
+  { name: '.NET', category: 'framework' },
   { name: 'WinForms', category: 'framework' },
   { name: 'DevExpress', category: 'framework' },
-  { name: 'MSSQL', category: 'database' },
-  { name: 'LOGO Tiger3', category: 'erp' },
-  { name: 'Docker', category: 'devops' },
+  { name: 'SQL Server', category: 'data' },
+  { name: 'LOGO Tiger ERP', category: 'erp' },
+  { name: 'Docker', category: 'infra' },
   { name: 'Proxmox', category: 'infra' },
   { name: 'Linux', category: 'os' },
+  { name: 'Coolify', category: 'deploy' },
   { name: 'Cloudflare', category: 'network' },
-  { name: 'Coolify', category: 'devops' },
   { name: 'Nginx Proxy Manager', category: 'network' },
-  { name: 'n8n', category: 'automation' },
-  { name: 'AI Tools', category: 'ai' },
+  { name: 'n8n', category: 'auto' },
+  { name: 'AI Solutions', category: 'ai' },
 ];
 
-const categoryColors: Record<string, string> = {
-  language: 'from-blue-500/20 to-blue-600/5 border-blue-500/30',
-  framework: 'from-cyan-500/20 to-cyan-600/5 border-cyan-500/30',
-  database: 'from-emerald-500/20 to-emerald-600/5 border-emerald-500/30',
-  erp: 'from-amber-500/20 to-amber-600/5 border-amber-500/30',
-  devops: 'from-sky-500/20 to-sky-600/5 border-sky-500/30',
-  infra: 'from-teal-500/20 to-teal-600/5 border-teal-500/30',
-  os: 'from-slate-400/20 to-slate-500/5 border-slate-400/30',
-  network: 'from-orange-500/20 to-orange-600/5 border-orange-500/30',
-  automation: 'from-rose-500/20 to-rose-600/5 border-rose-500/30',
-  ai: 'from-brand-accent/20 to-brand-accent/5 border-brand-accent/30',
+const categoryStyle: Record<string, string> = {
+  lang: 'border-blue-400/30 hover:border-blue-400/60 hover:shadow-blue-400/10',
+  framework: 'border-cyan-400/30 hover:border-cyan-400/60 hover:shadow-cyan-400/10',
+  data: 'border-emerald-400/30 hover:border-emerald-400/60 hover:shadow-emerald-400/10',
+  erp: 'border-amber-400/30 hover:border-amber-400/60 hover:shadow-amber-400/10',
+  infra: 'border-sky-400/30 hover:border-sky-400/60 hover:shadow-sky-400/10',
+  os: 'border-slate-400/30 hover:border-slate-400/60 hover:shadow-slate-400/10',
+  deploy: 'border-teal-400/30 hover:border-teal-400/60 hover:shadow-teal-400/10',
+  network: 'border-orange-400/30 hover:border-orange-400/60 hover:shadow-orange-400/10',
+  auto: 'border-rose-400/30 hover:border-rose-400/60 hover:shadow-rose-400/10',
+  ai: 'border-brand-accent/30 hover:border-brand-accent/60 hover:shadow-brand-accent/10',
 };
 
 export default function TechStack() {
@@ -36,32 +36,32 @@ export default function TechStack() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section id="stack" className="relative py-32 px-6">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[60%] h-px bg-gradient-to-r from-transparent via-brand-accent/30 to-transparent" />
+    <section id="stack" className="relative py-40 px-6">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[40%] neon-line" />
 
-      <div className="max-w-4xl mx-auto" ref={ref}>
+      <div className="max-w-5xl mx-auto" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <p className="text-brand-accent font-mono text-sm mb-4 tracking-wider">TECH STACK</p>
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <p className="text-brand-accent font-mono text-xs mb-6 tracking-[0.3em] uppercase">Technology Stack</p>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             Tools of the <span className="text-gradient">trade</span>
           </h2>
         </motion.div>
 
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-4">
           {techItems.map((item, i) => (
             <motion.div
               key={item.name}
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.5, delay: i * 0.05 }}
-              whileHover={{ scale: 1.08, y: -2 }}
-              className={`px-5 py-2.5 rounded-full bg-gradient-to-br border font-mono text-sm text-white/90 cursor-default transition-shadow duration-300 hover:shadow-lg ${
-                categoryColors[item.category] || 'from-white/10 to-white/5 border-white/20'
+              initial={{ opacity: 0, scale: 0.7, y: 20 }}
+              animate={isInView ? { opacity: 1, scale: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: i * 0.06 }}
+              whileHover={{ scale: 1.08, y: -4 }}
+              className={`px-6 py-3 rounded-full border bg-white/[0.02] font-mono text-sm text-white/85 cursor-default transition-all duration-300 hover:shadow-lg hover:bg-white/[0.05] ${
+                categoryStyle[item.category] || ''
               }`}
             >
               {item.name}
