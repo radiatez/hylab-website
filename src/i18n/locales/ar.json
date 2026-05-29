@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "حول",
+    "infrastructure": "البنية التحتية",
+    "stack": "التقنيات",
+    "projects": "المشاريع",
+    "network": "الشبكة",
+    "contact": "اتصل بنا"
+  },
+  "hero": {
+    "subtitle": "بناء برمجيات الأعمال،\nالبنية التحتية\nوالأتمتة الذكية.",
+    "exploreBtn": "استكشف التقنيات",
+    "projectsBtn": "عرض المشاريع",
+    "contactBtn": "اتصل بنا",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "مدير تقنية المعلومات",
+      "softwareDev": "مطور برمجيات",
+      "infraArchitect": "مهندس بنية تحتية",
+      "autoEngineer": "مهندس أتمتة"
+    }
+  },
+  "scrollStory": {
+    "reliability": "أنظمة مصممة للموثوقية.",
+    "efficiency": "أتمتة مصممة للكفاءة.",
+    "growth": "بنية تحتية مصممة للنمو.",
+    "business": "تكنولوجيا مصممة للأعمال.",
+    "connected": "كل شيء متصل.",
+    "phases": {
+      "hardware": "الأجهزة",
+      "activating": "التفعيل",
+      "circuitry": "الدوائر",
+      "processing": "المعالجة",
+      "data": "البيانات",
+      "code": "الكود",
+      "containers": "الحاويات",
+      "virtualization": "المحاكاة الافتراضية",
+      "ecosystem": "النظام البيئي"
+    }
+  },
+  "about": {
+    "label": "حول HYLAB",
+    "title": "تكنولوجيا",
+    "titleAccent": "تدفع الأعمال",
+    "description": "محترف تقنية معلومات يركز على حلول تكنولوجيا الأعمال، تطوير البرمجيات، هندسة البنية التحتية، أنظمة الأتمتة وعمليات المؤسسات.",
+    "description2": "كل نظام مصمم بمبدأ واحد: يجب أن تخدم التكنولوجيا الأعمال بشكل موثوق وفعال وهادئ.",
+    "specs": {
+      "infraMgmt": "إدارة البنية التحتية لتقنية المعلومات",
+      "erp": "تكامل أنظمة ERP",
+      "sql": "حلول SQL Server",
+      "softwareDev": "تطوير برمجيات الأعمال",
+      "automation": "أنظمة الأتمتة",
+      "virtualization": "تقنيات المحاكاة الافتراضية",
+      "ai": "حلول مدعومة بالذكاء الاصطناعي",
+      "monitoring": "المراقبة والتقارير"
+    }
+  },
+  "infrastructure": {
+    "label": "البنية التحتية المباشرة",
+    "title": "حالة",
+    "titleAccent": "النظام",
+    "cards": {
+      "infraStatus": "حالة البنية التحتية",
+      "containers": "الحاويات النشطة",
+      "vms": "الأجهزة الافتراضية",
+      "backup": "حالة النسخ الاحتياطي",
+      "ssl": "شهادات SSL",
+      "monitoring": "المراقبة"
+    },
+    "values": {
+      "online": "متصل",
+      "healthy": "سليم",
+      "valid": "صالح",
+      "active": "نشط"
+    }
+  },
+  "techStack": {
+    "label": "حزمة التقنيات",
+    "title": "أدوات",
+    "titleAccent": "العمل"
+  },
+  "projects": {
+    "label": "مختبر المشاريع",
+    "title": "بُني في",
+    "titleAccent": "المختبر",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "منصة إدارة الأعمال",
+        "desc": "نظام شامل لإدارة الشركات للعمليات والموارد البشرية والمخزون وتتبع الأصول."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "أتمتة المهام المؤسسية",
+        "desc": "تنسيق وظائف SQL الآلي مع المراقبة والتنبيهات وآليات إعادة المحاولة الذكية."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "حلول ERP",
+        "desc": "طبقة تقارير وتكامل مخصصة مبنية على مستودع بيانات LOGO Tiger3 ERP."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "تتبع البنية التحتية",
+        "desc": "جرد كامل للأجهزة والبرمجيات مع إدارة دورة الحياة والاكتشاف الآلي."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "تقارير باللغة الطبيعية",
+        "desc": "توليد تقارير ذكية باستخدام الذكاء الاصطناعي لاستعلامات اللغة الطبيعية على بيانات الأعمال."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "نظام Docker + Coolify البيئي",
+        "desc": "بنية تحتية مستضافة ذاتياً بالكامل مع نشر آلي ومراقبة وتحديثات بدون توقف."
+      }
+    }
+  },
+  "network": {
+    "label": "هندسة الشبكة",
+    "title": "خريطة",
+    "titleAccent": "البنية التحتية",
+    "nodes": {
+      "internet": "الإنترنت",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "خادم النسخ الاحتياطي",
+      "monitoring": "المراقبة",
+      "erp": "خدمات ERP",
+      "ai": "خدمات الذكاء الاصطناعي"
+    },
+    "layer": "طبقة"
+  },
+  "timeline": {
+    "label": "الرحلة",
+    "title": "تطور",
+    "titleAccent": "التكنولوجيا",
+    "milestones": {
+      "sysAdmin": { "label": "إدارة الأنظمة", "desc": "إدارة أنظمة وشبكات المؤسسات" },
+      "infraMgmt": { "label": "إدارة البنية التحتية", "desc": "المحاكاة الافتراضية والخوادم وهندسة السحابة" },
+      "softwareDev": { "label": "تطوير البرمجيات", "desc": "تطبيقات أعمال مخصصة بـ C# و .NET" },
+      "erp": { "label": "تكامل ERP", "desc": "حلول LOGO Tiger3 و SQL Server" },
+      "automation": { "label": "أنظمة الأتمتة", "desc": "تنسيق سير العمل وأتمتة المهام" },
+      "ai": { "label": "حلول الذكاء الاصطناعي", "desc": "تقارير ذكية وأدوات مدعومة بالذكاء الاصطناعي" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "نظام بيئي تكنولوجي متكامل" }
+    }
+  },
+  "contact": {
+    "label": "اتصل بنا",
+    "title": "لنبني أنظمة",
+    "titleAccent": "أكثر ذكاءً.",
+    "tech": "التكنولوجيا.",
+    "infra": "البنية التحتية.",
+    "auto": "الأتمتة.",
+    "footer": "HYLAB.DEV — التكنولوجيا، البنية التحتية والأتمتة"
+  },
+  "loading": {
+    "init": "جارٍ تهيئة الأنظمة..."
+  },
+  "visitor": {
+    "visitors": "زائر"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "infrastructure": "Infraestrutura",
+    "stack": "Tecnologias",
+    "projects": "Projetos",
+    "network": "Rede",
+    "contact": "Contato"
+  },
+  "hero": {
+    "subtitle": "Software Empresarial,\nInfraestrutura\ne Automação Inteligente.",
+    "exploreBtn": "Explorar Tecnologias",
+    "projectsBtn": "Ver Projetos",
+    "contactBtn": "Contato",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "Gerente de TI",
+      "softwareDev": "Desenvolvedor de Software",
+      "infraArchitect": "Arquiteto de Infraestrutura",
+      "autoEngineer": "Engenheiro de Automação"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Sistemas projetados para confiabilidade.",
+    "efficiency": "Automação projetada para eficiência.",
+    "growth": "Infraestrutura projetada para crescimento.",
+    "business": "Tecnologia projetada para negócios.",
+    "connected": "Tudo conectado.",
+    "phases": {
+      "hardware": "HARDWARE",
+      "activating": "ATIVANDO",
+      "circuitry": "CIRCUITOS",
+      "processing": "PROCESSANDO",
+      "data": "DADOS",
+      "code": "CÓDIGO",
+      "containers": "CONTÊINERES",
+      "virtualization": "VIRTUALIZAÇÃO",
+      "ecosystem": "ECOSSISTEMA"
+    }
+  },
+  "about": {
+    "label": "Sobre HYLAB",
+    "title": "Tecnologia que",
+    "titleAccent": "impulsiona negócios",
+    "description": "Um profissional de TI focado em soluções de tecnologia empresarial, desenvolvimento de software, arquitetura de infraestrutura, sistemas de automação e operações corporativas.",
+    "description2": "Cada sistema é projetado com um único princípio: a tecnologia deve servir ao negócio de forma confiável, eficiente e silenciosa.",
+    "specs": {
+      "infraMgmt": "Gestão de Infraestrutura de TI",
+      "erp": "Integrações ERP",
+      "sql": "Soluções SQL Server",
+      "softwareDev": "Desenvolvimento de Software Empresarial",
+      "automation": "Sistemas de Automação",
+      "virtualization": "Tecnologias de Virtualização",
+      "ai": "Soluções Assistidas por IA",
+      "monitoring": "Monitoramento e Relatórios"
+    }
+  },
+  "infrastructure": {
+    "label": "Infraestrutura ao Vivo",
+    "title": "Status do",
+    "titleAccent": "Sistema",
+    "cards": {
+      "infraStatus": "Status da Infraestrutura",
+      "containers": "Contêineres Ativos",
+      "vms": "Máquinas Virtuais",
+      "backup": "Status do Backup",
+      "ssl": "Certificados SSL",
+      "monitoring": "Monitoramento"
+    },
+    "values": {
+      "online": "ONLINE",
+      "healthy": "SAUDÁVEL",
+      "valid": "VÁLIDO",
+      "active": "ATIVO"
+    }
+  },
+  "techStack": {
+    "label": "Stack Tecnológico",
+    "title": "Ferramentas do",
+    "titleAccent": "ofício"
+  },
+  "projects": {
+    "label": "Laboratório de Projetos",
+    "title": "Construído no",
+    "titleAccent": "laboratório",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Plataforma de Gestão Empresarial",
+        "desc": "Sistema abrangente de gestão empresarial para operações, RH, inventário e rastreamento de ativos."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Automação de Tarefas Corporativas",
+        "desc": "Orquestração automatizada de jobs SQL com monitoramento, alertas e mecanismos de retry inteligentes."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "Soluções ERP",
+        "desc": "Camada personalizada de relatórios e integração sobre o data warehouse LOGO Tiger3 ERP."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Rastreamento de Infraestrutura",
+        "desc": "Inventário completo de hardware e software com gestão de ciclo de vida e descoberta automatizada."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Relatórios em Linguagem Natural",
+        "desc": "Geração inteligente de relatórios usando IA para consultas em linguagem natural em dados empresariais."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Ecossistema Docker + Coolify",
+        "desc": "Infraestrutura auto-hospedada completa com deploys automatizados e atualizações sem downtime."
+      }
+    }
+  },
+  "network": {
+    "label": "Arquitetura de Rede",
+    "title": "Mapa de",
+    "titleAccent": "Infraestrutura",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Servidor de Backup",
+      "monitoring": "Monitoramento",
+      "erp": "Serviços ERP",
+      "ai": "Serviços IA"
+    },
+    "layer": "Camada"
+  },
+  "timeline": {
+    "label": "Jornada",
+    "title": "Evolução",
+    "titleAccent": "Tecnológica",
+    "milestones": {
+      "sysAdmin": { "label": "Administração de Sistemas", "desc": "Gestão de sistemas e redes corporativas" },
+      "infraMgmt": { "label": "Gestão de Infraestrutura", "desc": "Virtualização, servidores e arquitetura cloud" },
+      "softwareDev": { "label": "Desenvolvimento de Software", "desc": "Aplicações empresariais personalizadas com C# e .NET" },
+      "erp": { "label": "Integrações ERP", "desc": "Soluções LOGO Tiger3 e SQL Server" },
+      "automation": { "label": "Sistemas de Automação", "desc": "Orquestração de workflows e automação de tarefas" },
+      "ai": { "label": "Soluções IA", "desc": "Relatórios inteligentes e ferramentas assistidas por IA" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Ecossistema tecnológico completo" }
+    }
+  },
+  "contact": {
+    "label": "Contato",
+    "title": "Vamos Construir Sistemas",
+    "titleAccent": "Mais Inteligentes.",
+    "tech": "Tecnologia.",
+    "infra": "Infraestrutura.",
+    "auto": "Automação.",
+    "footer": "HYLAB.DEV — Tecnologia, Infraestrutura & Automação"
+  },
+  "loading": {
+    "init": "inicializando sistemas..."
+  },
+  "visitor": {
+    "visitors": "visitantes"
+  }
+}

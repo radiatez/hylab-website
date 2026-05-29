@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "Over",
+    "infrastructure": "Infrastructuur",
+    "stack": "Technologieën",
+    "projects": "Projecten",
+    "network": "Netwerk",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Bedrijfssoftware,\nInfrastructuur\nen Intelligente Automatisering.",
+    "exploreBtn": "Technologieën Verkennen",
+    "projectsBtn": "Projecten Bekijken",
+    "contactBtn": "Contact",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT-manager",
+      "softwareDev": "Softwareontwikkelaar",
+      "infraArchitect": "Infrastructuurarchitect",
+      "autoEngineer": "Automatiseringsingenieur"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Systemen ontworpen voor betrouwbaarheid.",
+    "efficiency": "Automatisering ontworpen voor efficiëntie.",
+    "growth": "Infrastructuur ontworpen voor groei.",
+    "business": "Technologie ontworpen voor business.",
+    "connected": "Alles verbonden.",
+    "phases": {
+      "hardware": "HARDWARE",
+      "activating": "ACTIVEREN",
+      "circuitry": "CIRCUITS",
+      "processing": "VERWERKING",
+      "data": "DATA",
+      "code": "CODE",
+      "containers": "CONTAINERS",
+      "virtualization": "VIRTUALISATIE",
+      "ecosystem": "ECOSYSTEEM"
+    }
+  },
+  "about": {
+    "label": "Over HYLAB",
+    "title": "Technologie die",
+    "titleAccent": "business aandrijft",
+    "description": "Een IT-professional gericht op bedrijfstechnologieoplossingen, softwareontwikkeling, infrastructuurarchitectuur, automatiseringssystemen en bedrijfsoperaties.",
+    "description2": "Elk systeem is ontworpen met één principe: technologie moet het bedrijf betrouwbaar, efficiënt en geruisloos dienen.",
+    "specs": {
+      "infraMgmt": "IT-infrastructuurbeheer",
+      "erp": "ERP-integraties",
+      "sql": "SQL Server-oplossingen",
+      "softwareDev": "Bedrijfssoftwareontwikkeling",
+      "automation": "Automatiseringssystemen",
+      "virtualization": "Virtualisatietechnologieën",
+      "ai": "AI-ondersteunde Oplossingen",
+      "monitoring": "Monitoring en Rapportage"
+    }
+  },
+  "infrastructure": {
+    "label": "Live Infrastructuur",
+    "title": "Systeem",
+    "titleAccent": "Status",
+    "cards": {
+      "infraStatus": "Infrastructuurstatus",
+      "containers": "Actieve Containers",
+      "vms": "Virtuele Machines",
+      "backup": "Backup-status",
+      "ssl": "SSL-certificaten",
+      "monitoring": "Monitoring"
+    },
+    "values": {
+      "online": "ONLINE",
+      "healthy": "GEZOND",
+      "valid": "GELDIG",
+      "active": "ACTIEF"
+    }
+  },
+  "techStack": {
+    "label": "Technologiestack",
+    "title": "Gereedschap van het",
+    "titleAccent": "vak"
+  },
+  "projects": {
+    "label": "Projectlaboratorium",
+    "title": "Gebouwd in het",
+    "titleAccent": "lab",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Bedrijfsmanagementplatform",
+        "desc": "Uitgebreid bedrijfsbeheersysteem voor operaties, HR, inventaris en asset-tracking."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Enterprise Taakautomatisering",
+        "desc": "Geautomatiseerde SQL-job-orkestratie met monitoring, waarschuwingen en intelligente retry-mechanismen."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP-oplossingen",
+        "desc": "Aangepaste rapportage- en integratielaag op het LOGO Tiger3 ERP-datawarehouse."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Infrastructuurtracking",
+        "desc": "Compleet hardware- en software-inventaris met levenscyclusbeheer en geautomatiseerde ontdekking."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Natuurlijke Taalrapportage",
+        "desc": "Intelligente rapportgeneratie met AI voor natuurlijke taalquery's op bedrijfsdata."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify Ecosysteem",
+        "desc": "Volledig zelf-gehoste infrastructuur met geautomatiseerde deployments en zero-downtime updates."
+      }
+    }
+  },
+  "network": {
+    "label": "Netwerkarchitectuur",
+    "title": "Infrastructuur",
+    "titleAccent": "Kaart",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Backup-server",
+      "monitoring": "Monitoring",
+      "erp": "ERP-diensten",
+      "ai": "AI-diensten"
+    },
+    "layer": "Laag"
+  },
+  "timeline": {
+    "label": "Reis",
+    "title": "Technologische",
+    "titleAccent": "Evolutie",
+    "milestones": {
+      "sysAdmin": { "label": "Systeembeheer", "desc": "Beheer van bedrijfssystemen en netwerken" },
+      "infraMgmt": { "label": "Infrastructuurbeheer", "desc": "Virtualisatie, servers en cloudarchitectuur" },
+      "softwareDev": { "label": "Softwareontwikkeling", "desc": "Aangepaste bedrijfsapplicaties met C# en .NET" },
+      "erp": { "label": "ERP-integraties", "desc": "LOGO Tiger3 en SQL Server-oplossingen" },
+      "automation": { "label": "Automatiseringssystemen", "desc": "Workflow-orkestratie en taakautomatisering" },
+      "ai": { "label": "AI-oplossingen", "desc": "Intelligente rapportage en AI-ondersteunde tools" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Compleet technologie-ecosysteem" }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Laten we Slimmere",
+    "titleAccent": "Systemen Bouwen.",
+    "tech": "Technologie.",
+    "infra": "Infrastructuur.",
+    "auto": "Automatisering.",
+    "footer": "HYLAB.DEV — Technologie, Infrastructuur & Automatisering"
+  },
+  "loading": {
+    "init": "systemen initialiseren..."
+  },
+  "visitor": {
+    "visitors": "bezoekers"
+  }
+}

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const codeLines = [
   'docker compose up -d --build',
@@ -15,24 +16,25 @@ const codeLines = [
   'tiger3.erp.sync(inventory)',
 ];
 
-const terminalLines = [
-  { text: '> whoami', type: 'command' as const },
-  { text: '', type: 'blank' as const },
-  { text: 'Hamza YILMAZ', type: 'name' as const },
-  { text: '', type: 'blank' as const },
-  { text: 'IT Manager', type: 'role' as const },
-  { text: 'Software Developer', type: 'role' as const },
-  { text: 'Infrastructure Architect', type: 'role' as const },
-  { text: 'Automation Engineer', type: 'role' as const },
-];
-
 export default function Hero() {
+  const { t } = useTranslation();
   const [visibleLines, setVisibleLines] = useState(0);
+
+  const terminalLines = [
+    { text: t('hero.terminalPrompt'), type: 'command' as const },
+    { text: '', type: 'blank' as const },
+    { text: 'Hamza YILMAZ', type: 'name' as const },
+    { text: '', type: 'blank' as const },
+    { text: t('hero.roles.itManager'), type: 'role' as const },
+    { text: t('hero.roles.softwareDev'), type: 'role' as const },
+    { text: t('hero.roles.infraArchitect'), type: 'role' as const },
+    { text: t('hero.roles.autoEngineer'), type: 'role' as const },
+  ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setVisibleLines((prev) => {
-        if (prev >= terminalLines.length) {
+        if (prev >= 8) {
           clearInterval(timer);
           return prev;
         }
@@ -107,13 +109,9 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 3.2 }}
-              className="text-lg md:text-xl font-light text-brand-muted leading-relaxed mb-4 max-w-lg"
+              className="text-lg md:text-xl font-light text-brand-muted leading-relaxed mb-4 max-w-lg whitespace-pre-line"
             >
-              Building Business Software,
-              <br />
-              Infrastructure
-              <br />
-              and Intelligent Automation.
+              {t('hero.subtitle')}
             </motion.p>
 
             <motion.div
@@ -136,19 +134,19 @@ export default function Hero() {
                 href="#stack"
                 className="px-6 py-3 text-sm font-medium bg-brand-accent/10 border border-brand-accent/30 rounded-full text-brand-accent hover:bg-brand-accent/20 hover:border-brand-accent/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,180,255,0.15)]"
               >
-                Explore Technologies
+                {t('hero.exploreBtn')}
               </a>
               <a
                 href="#projects"
                 className="px-6 py-3 text-sm font-medium glass rounded-full text-white/80 hover:text-white hover:bg-white/10 transition-all duration-300"
               >
-                View Projects
+                {t('hero.projectsBtn')}
               </a>
               <a
                 href="#contact"
                 className="px-6 py-3 text-sm font-medium glass rounded-full text-white/80 hover:text-white hover:bg-white/10 transition-all duration-300"
               >
-                Contact
+                {t('hero.contactBtn')}
               </a>
             </motion.div>
           </div>
@@ -190,7 +188,7 @@ export default function Hero() {
                     {line.type === 'blank' && <br />}
                   </motion.div>
                 ))}
-                {visibleLines < terminalLines.length && (
+                {visibleLines < 8 && (
                   <span className="inline-block w-2 h-4 bg-brand-accent animate-pulse" />
                 )}
               </div>

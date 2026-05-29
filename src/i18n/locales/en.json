@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "About",
+    "infrastructure": "Infrastructure",
+    "stack": "Stack",
+    "projects": "Projects",
+    "network": "Network",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Building Business Software,\nInfrastructure\nand Intelligent Automation.",
+    "exploreBtn": "Explore Technologies",
+    "projectsBtn": "View Projects",
+    "contactBtn": "Contact",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT Manager",
+      "softwareDev": "Software Developer",
+      "infraArchitect": "Infrastructure Architect",
+      "autoEngineer": "Automation Engineer"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Systems designed for reliability.",
+    "efficiency": "Automation designed for efficiency.",
+    "growth": "Infrastructure designed for growth.",
+    "business": "Technology designed for business.",
+    "connected": "Everything connected.",
+    "phases": {
+      "hardware": "HARDWARE",
+      "activating": "ACTIVATING",
+      "circuitry": "CIRCUITRY",
+      "processing": "PROCESSING",
+      "data": "DATA",
+      "code": "CODE",
+      "containers": "CONTAINERS",
+      "virtualization": "VIRTUALIZATION",
+      "ecosystem": "ECOSYSTEM"
+    }
+  },
+  "about": {
+    "label": "About HYLAB",
+    "title": "Technology that",
+    "titleAccent": "powers business",
+    "description": "An IT professional focused on business technology solutions, software development, infrastructure architecture, automation systems and enterprise operations.",
+    "description2": "Every system is designed with a single principle: technology must serve the business reliably, efficiently, and silently.",
+    "specs": {
+      "infraMgmt": "IT Infrastructure Management",
+      "erp": "ERP Integrations",
+      "sql": "SQL Server Solutions",
+      "softwareDev": "Business Software Development",
+      "automation": "Automation Systems",
+      "virtualization": "Virtualization Technologies",
+      "ai": "AI Assisted Solutions",
+      "monitoring": "Monitoring and Reporting"
+    }
+  },
+  "infrastructure": {
+    "label": "Live Infrastructure",
+    "title": "System",
+    "titleAccent": "Status",
+    "cards": {
+      "infraStatus": "Infrastructure Status",
+      "containers": "Containers Running",
+      "vms": "Virtual Machines",
+      "backup": "Backup Status",
+      "ssl": "SSL Certificates",
+      "monitoring": "Monitoring"
+    },
+    "values": {
+      "online": "ONLINE",
+      "healthy": "HEALTHY",
+      "valid": "VALID",
+      "active": "ACTIVE"
+    }
+  },
+  "techStack": {
+    "label": "Technology Stack",
+    "title": "Tools of the",
+    "titleAccent": "trade"
+  },
+  "projects": {
+    "label": "Project Lab",
+    "title": "Built in the",
+    "titleAccent": "lab",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Business Management Platform",
+        "desc": "Comprehensive company management system for operations, HR, inventory, and asset tracking with full DevExpress UI."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Enterprise Task Automation",
+        "desc": "Automated SQL job orchestration with monitoring, alerts, execution history, and intelligent retry mechanisms."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP Solutions",
+        "desc": "Custom reporting and integration layer built on top of LOGO Tiger3 ERP data warehouse for seamless business operations."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Infrastructure Tracking",
+        "desc": "Complete hardware and software inventory with lifecycle management, warranty tracking, and automated discovery."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Natural Language Reporting",
+        "desc": "Intelligent report generation using AI for natural language queries on business data, converting questions into SQL and visualizations."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify Ecosystem",
+        "desc": "Complete self-hosted infrastructure with automated deployments, SSL management, monitoring, and zero-downtime updates."
+      }
+    }
+  },
+  "network": {
+    "label": "Network Architecture",
+    "title": "Infrastructure",
+    "titleAccent": "Map",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Backup Server",
+      "monitoring": "Monitoring",
+      "erp": "ERP Services",
+      "ai": "AI Services"
+    },
+    "layer": "Layer"
+  },
+  "timeline": {
+    "label": "Journey",
+    "title": "Technology",
+    "titleAccent": "Evolution",
+    "milestones": {
+      "sysAdmin": { "label": "System Administration", "desc": "Managing enterprise systems and networks" },
+      "infraMgmt": { "label": "Infrastructure Management", "desc": "Virtualization, servers, and cloud architecture" },
+      "softwareDev": { "label": "Software Development", "desc": "Custom business applications with C# and .NET" },
+      "erp": { "label": "ERP Integrations", "desc": "LOGO Tiger3 and SQL Server solutions" },
+      "automation": { "label": "Automation Systems", "desc": "Workflow orchestration and task automation" },
+      "ai": { "label": "AI Solutions", "desc": "Intelligent reporting and AI-assisted tools" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Complete technology ecosystem" }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Build",
+    "titleAccent": "Smarter Systems.",
+    "tech": "Technology.",
+    "infra": "Infrastructure.",
+    "auto": "Automation.",
+    "footer": "HYLAB.DEV — Technology, Infrastructure & Automation"
+  },
+  "loading": {
+    "init": "initializing systems..."
+  },
+  "visitor": {
+    "visitors": "visitors"
+  }
+}

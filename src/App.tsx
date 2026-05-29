@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { supportedLanguages } from './i18n';
 import LoadingScreen from './components/LoadingScreen';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
@@ -15,6 +17,14 @@ import VisitorCounter from './components/VisitorCounter';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const lang = supportedLanguages.find((l) => l.code === i18n.language);
+    const dir = lang?.dir || 'ltr';
+    document.documentElement.lang = i18n.language;
+    document.documentElement.dir = dir;
+  }, [i18n.language]);
 
   return (
     <>

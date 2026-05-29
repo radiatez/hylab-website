@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "概要",
+    "infrastructure": "インフラ",
+    "stack": "技術スタック",
+    "projects": "プロジェクト",
+    "network": "ネットワーク",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "subtitle": "ビジネスソフトウェア、\nインフラストラクチャ\nとインテリジェント自動化の構築。",
+    "exploreBtn": "技術を探索",
+    "projectsBtn": "プロジェクトを見る",
+    "contactBtn": "お問い合わせ",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "ITマネージャー",
+      "softwareDev": "ソフトウェア開発者",
+      "infraArchitect": "インフラアーキテクト",
+      "autoEngineer": "自動化エンジニア"
+    }
+  },
+  "scrollStory": {
+    "reliability": "信頼性のために設計されたシステム。",
+    "efficiency": "効率性のために設計された自動化。",
+    "growth": "成長のために設計されたインフラ。",
+    "business": "ビジネスのために設計された技術。",
+    "connected": "すべてが繋がっている。",
+    "phases": {
+      "hardware": "ハードウェア",
+      "activating": "起動中",
+      "circuitry": "回路",
+      "processing": "処理",
+      "data": "データ",
+      "code": "コード",
+      "containers": "コンテナ",
+      "virtualization": "仮想化",
+      "ecosystem": "エコシステム"
+    }
+  },
+  "about": {
+    "label": "HYLABについて",
+    "title": "ビジネスを",
+    "titleAccent": "駆動する技術",
+    "description": "ビジネステクノロジーソリューション、ソフトウェア開発、インフラアーキテクチャ、自動化システム、企業運営に焦点を当てたITプロフェッショナル。",
+    "description2": "すべてのシステムは一つの原則で設計されます：技術はビジネスに信頼性、効率性、そして静かにサービスを提供しなければなりません。",
+    "specs": {
+      "infraMgmt": "ITインフラ管理",
+      "erp": "ERP統合",
+      "sql": "SQL Serverソリューション",
+      "softwareDev": "ビジネスソフトウェア開発",
+      "automation": "自動化システム",
+      "virtualization": "仮想化技術",
+      "ai": "AI支援ソリューション",
+      "monitoring": "監視とレポート"
+    }
+  },
+  "infrastructure": {
+    "label": "ライブインフラ",
+    "title": "システム",
+    "titleAccent": "ステータス",
+    "cards": {
+      "infraStatus": "インフラ状態",
+      "containers": "稼働コンテナ",
+      "vms": "仮想マシン",
+      "backup": "バックアップ状態",
+      "ssl": "SSL証明書",
+      "monitoring": "監視"
+    },
+    "values": {
+      "online": "オンライン",
+      "healthy": "正常",
+      "valid": "有効",
+      "active": "アクティブ"
+    }
+  },
+  "techStack": {
+    "label": "技術スタック",
+    "title": "プロの",
+    "titleAccent": "ツール"
+  },
+  "projects": {
+    "label": "プロジェクトラボ",
+    "title": "ラボで",
+    "titleAccent": "構築",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "ビジネス管理プラットフォーム",
+        "desc": "運営、人事、在庫、資産追跡のための包括的な企業管理システム。"
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "エンタープライズタスク自動化",
+        "desc": "監視、アラート、インテリジェントリトライ機能を備えた自動SQLジョブオーケストレーション。"
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERPソリューション",
+        "desc": "LOGO Tiger3 ERPデータウェアハウス上に構築されたカスタムレポートと統合レイヤー。"
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "インフラ追跡",
+        "desc": "ライフサイクル管理と自動検出機能を備えた完全なハードウェア・ソフトウェアインベントリ。"
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "自然言語レポート",
+        "desc": "ビジネスデータに対する自然言語クエリのためのAI活用スマートレポート生成。"
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolifyエコシステム",
+        "desc": "自動デプロイ、SSL管理、ゼロダウンタイム更新を備えた完全セルフホストインフラ。"
+      }
+    }
+  },
+  "network": {
+    "label": "ネットワークアーキテクチャ",
+    "title": "インフラ",
+    "titleAccent": "マップ",
+    "nodes": {
+      "internet": "インターネット",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "バックアップサーバー",
+      "monitoring": "監視",
+      "erp": "ERPサービス",
+      "ai": "AIサービス"
+    },
+    "layer": "レイヤー"
+  },
+  "timeline": {
+    "label": "歩み",
+    "title": "技術の",
+    "titleAccent": "進化",
+    "milestones": {
+      "sysAdmin": { "label": "システム管理", "desc": "企業システムとネットワークの管理" },
+      "infraMgmt": { "label": "インフラ管理", "desc": "仮想化、サーバー、クラウドアーキテクチャ" },
+      "softwareDev": { "label": "ソフトウェア開発", "desc": "C#と.NETによるカスタムビジネスアプリケーション" },
+      "erp": { "label": "ERP統合", "desc": "LOGO Tiger3とSQL Serverソリューション" },
+      "automation": { "label": "自動化システム", "desc": "ワークフローオーケストレーションとタスク自動化" },
+      "ai": { "label": "AIソリューション", "desc": "インテリジェントレポートとAI支援ツール" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "完全な技術エコシステム" }
+    }
+  },
+  "contact": {
+    "label": "お問い合わせ",
+    "title": "よりスマートな",
+    "titleAccent": "システムを構築しよう。",
+    "tech": "技術。",
+    "infra": "インフラ。",
+    "auto": "自動化。",
+    "footer": "HYLAB.DEV — 技術、インフラ＆自動化"
+  },
+  "loading": {
+    "init": "システム初期化中..."
+  },
+  "visitor": {
+    "visitors": "訪問者"
+  }
+}

@@ -1,5 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const techItems = [
   { name: 'C#', category: 'lang' },
@@ -32,6 +33,7 @@ const categoryStyle: Record<string, string> = {
 };
 
 export default function TechStack() {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
@@ -46,9 +48,9 @@ export default function TechStack() {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <p className="text-brand-accent font-mono text-xs mb-6 tracking-[0.3em] uppercase">Technology Stack</p>
+          <p className="text-brand-accent font-mono text-xs mb-6 tracking-[0.3em] uppercase">{t('techStack.label')}</p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-            Tools of the <span className="text-gradient">trade</span>
+            {t('techStack.title')} <span className="text-gradient">{t('techStack.titleAccent')}</span>
           </h2>
         </motion.div>
 

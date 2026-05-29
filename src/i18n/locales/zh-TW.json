@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "關於",
+    "infrastructure": "基礎設施",
+    "stack": "技術棧",
+    "projects": "專案",
+    "network": "網路",
+    "contact": "聯絡"
+  },
+  "hero": {
+    "subtitle": "建構商業軟體、\n基礎設施\n和智慧自動化。",
+    "exploreBtn": "探索技術",
+    "projectsBtn": "查看專案",
+    "contactBtn": "聯絡我們",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT經理",
+      "softwareDev": "軟體開發工程師",
+      "infraArchitect": "基礎設施架構師",
+      "autoEngineer": "自動化工程師"
+    }
+  },
+  "scrollStory": {
+    "reliability": "為可靠性而設計的系統。",
+    "efficiency": "為效率而設計的自動化。",
+    "growth": "為增長而設計的基礎設施。",
+    "business": "為商業而設計的技術。",
+    "connected": "一切互聯。",
+    "phases": {
+      "hardware": "硬體",
+      "activating": "啟動",
+      "circuitry": "電路",
+      "processing": "處理",
+      "data": "資料",
+      "code": "程式碼",
+      "containers": "容器",
+      "virtualization": "虛擬化",
+      "ecosystem": "生態系統"
+    }
+  },
+  "about": {
+    "label": "關於 HYLAB",
+    "title": "推動商業發展的",
+    "titleAccent": "技術力量",
+    "description": "專注於企業技術解決方案、軟體開發、基礎設施架構、自動化系統和企業營運的IT專業人士。",
+    "description2": "每個系統都遵循一個原則：技術必須可靠、高效、無聲地服務於企業。",
+    "specs": {
+      "infraMgmt": "IT基礎設施管理",
+      "erp": "ERP整合",
+      "sql": "SQL Server解決方案",
+      "softwareDev": "商業軟體開發",
+      "automation": "自動化系統",
+      "virtualization": "虛擬化技術",
+      "ai": "AI輔助解決方案",
+      "monitoring": "監控和報告"
+    }
+  },
+  "infrastructure": {
+    "label": "即時基礎設施",
+    "title": "系統",
+    "titleAccent": "狀態",
+    "cards": {
+      "infraStatus": "基礎設施狀態",
+      "containers": "運行容器",
+      "vms": "虛擬機",
+      "backup": "備份狀態",
+      "ssl": "SSL憑證",
+      "monitoring": "監控"
+    },
+    "values": {
+      "online": "線上",
+      "healthy": "健康",
+      "valid": "有效",
+      "active": "活躍"
+    }
+  },
+  "techStack": {
+    "label": "技術棧",
+    "title": "專業",
+    "titleAccent": "工具"
+  },
+  "projects": {
+    "label": "專案實驗室",
+    "title": "實驗室",
+    "titleAccent": "作品",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "企業管理平台",
+        "desc": "全面的企業管理系統，涵蓋營運、人力資源、庫存和資產追蹤。"
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "企業任務自動化",
+        "desc": "自動化SQL作業編排，配備監控、警報和智慧重試機制。"
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP解決方案",
+        "desc": "基於LOGO Tiger3 ERP資料倉儲的自定義報表和整合層。"
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "基礎設施追蹤",
+        "desc": "完整的硬體和軟體清單，支援生命週期管理和自動發現。"
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "自然語言報告",
+        "desc": "利用AI進行智慧報告生成，將自然語言查詢轉換為SQL和視覺化。"
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify生態系統",
+        "desc": "完整的自託管基礎設施，支援自動部署、SSL管理和零停機更新。"
+      }
+    }
+  },
+  "network": {
+    "label": "網路架構",
+    "title": "基礎設施",
+    "titleAccent": "地圖",
+    "nodes": {
+      "internet": "網際網路",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "備份伺服器",
+      "monitoring": "監控",
+      "erp": "ERP服務",
+      "ai": "AI服務"
+    },
+    "layer": "層"
+  },
+  "timeline": {
+    "label": "歷程",
+    "title": "技術",
+    "titleAccent": "演進",
+    "milestones": {
+      "sysAdmin": { "label": "系統管理", "desc": "管理企業系統和網路" },
+      "infraMgmt": { "label": "基礎設施管理", "desc": "虛擬化、伺服器和雲端架構" },
+      "softwareDev": { "label": "軟體開發", "desc": "使用C#和.NET開發客製業務應用" },
+      "erp": { "label": "ERP整合", "desc": "LOGO Tiger3和SQL Server解決方案" },
+      "automation": { "label": "自動化系統", "desc": "工作流程編排和任務自動化" },
+      "ai": { "label": "AI解決方案", "desc": "智慧報告和AI輔助工具" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "完整的技術生態系統" }
+    }
+  },
+  "contact": {
+    "label": "聯絡",
+    "title": "讓我們建構",
+    "titleAccent": "更智慧的系統。",
+    "tech": "技術。",
+    "infra": "基礎設施。",
+    "auto": "自動化。",
+    "footer": "HYLAB.DEV — 技術、基礎設施與自動化"
+  },
+  "loading": {
+    "init": "正在初始化系統..."
+  },
+  "visitor": {
+    "visitors": "訪客"
+  }
+}

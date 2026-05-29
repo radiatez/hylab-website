@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "Über",
+    "infrastructure": "Infrastruktur",
+    "stack": "Technologien",
+    "projects": "Projekte",
+    "network": "Netzwerk",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Geschäftssoftware,\nInfrastruktur\nund intelligente Automatisierung.",
+    "exploreBtn": "Technologien erkunden",
+    "projectsBtn": "Projekte ansehen",
+    "contactBtn": "Kontakt",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT-Manager",
+      "softwareDev": "Softwareentwickler",
+      "infraArchitect": "Infrastrukturarchitekt",
+      "autoEngineer": "Automatisierungsingenieur"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Systeme für Zuverlässigkeit entwickelt.",
+    "efficiency": "Automatisierung für Effizienz entwickelt.",
+    "growth": "Infrastruktur für Wachstum entwickelt.",
+    "business": "Technologie für Unternehmen entwickelt.",
+    "connected": "Alles verbunden.",
+    "phases": {
+      "hardware": "HARDWARE",
+      "activating": "AKTIVIERUNG",
+      "circuitry": "SCHALTKREISE",
+      "processing": "VERARBEITUNG",
+      "data": "DATEN",
+      "code": "CODE",
+      "containers": "CONTAINER",
+      "virtualization": "VIRTUALISIERUNG",
+      "ecosystem": "ÖKOSYSTEM"
+    }
+  },
+  "about": {
+    "label": "Über HYLAB",
+    "title": "Technologie die",
+    "titleAccent": "Geschäfte antreibt",
+    "description": "Ein IT-Fachmann mit Fokus auf Geschäftstechnologielösungen, Softwareentwicklung, Infrastrukturarchitektur, Automatisierungssysteme und Unternehmensbetrieb.",
+    "description2": "Jedes System wird mit einem einzigen Prinzip entwickelt: Technologie muss dem Unternehmen zuverlässig, effizient und unauffällig dienen.",
+    "specs": {
+      "infraMgmt": "IT-Infrastrukturmanagement",
+      "erp": "ERP-Integrationen",
+      "sql": "SQL Server Lösungen",
+      "softwareDev": "Geschäftssoftwareentwicklung",
+      "automation": "Automatisierungssysteme",
+      "virtualization": "Virtualisierungstechnologien",
+      "ai": "KI-gestützte Lösungen",
+      "monitoring": "Überwachung und Berichterstattung"
+    }
+  },
+  "infrastructure": {
+    "label": "Live-Infrastruktur",
+    "title": "System",
+    "titleAccent": "Status",
+    "cards": {
+      "infraStatus": "Infrastrukturstatus",
+      "containers": "Laufende Container",
+      "vms": "Virtuelle Maschinen",
+      "backup": "Backup-Status",
+      "ssl": "SSL-Zertifikate",
+      "monitoring": "Überwachung"
+    },
+    "values": {
+      "online": "ONLINE",
+      "healthy": "GESUND",
+      "valid": "GÜLTIG",
+      "active": "AKTIV"
+    }
+  },
+  "techStack": {
+    "label": "Technologie-Stack",
+    "title": "Werkzeuge des",
+    "titleAccent": "Handwerks"
+  },
+  "projects": {
+    "label": "Projektlabor",
+    "title": "Im Labor",
+    "titleAccent": "entwickelt",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Geschäftsmanagement-Plattform",
+        "desc": "Umfassendes Unternehmensmanagementsystem für Betrieb, HR, Inventar und Asset-Tracking."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Unternehmens-Aufgabenautomatisierung",
+        "desc": "Automatisierte SQL-Job-Orchestrierung mit Überwachung, Warnungen und intelligenten Wiederholungsmechanismen."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP-Lösungen",
+        "desc": "Benutzerdefinierte Berichts- und Integrationsschicht auf LOGO Tiger3 ERP Data Warehouse."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Infrastrukturverfolgung",
+        "desc": "Vollständiges Hardware- und Software-Inventar mit Lebenszyklusmanagement und automatischer Erkennung."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Natürlichsprachige Berichterstattung",
+        "desc": "Intelligente Berichterstellung mit KI für natürlichsprachige Abfragen auf Geschäftsdaten."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify Ökosystem",
+        "desc": "Vollständig selbst gehostete Infrastruktur mit automatisierten Deployments und Zero-Downtime-Updates."
+      }
+    }
+  },
+  "network": {
+    "label": "Netzwerkarchitektur",
+    "title": "Infrastruktur",
+    "titleAccent": "Karte",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Backup-Server",
+      "monitoring": "Überwachung",
+      "erp": "ERP-Dienste",
+      "ai": "KI-Dienste"
+    },
+    "layer": "Schicht"
+  },
+  "timeline": {
+    "label": "Reise",
+    "title": "Technologie",
+    "titleAccent": "Evolution",
+    "milestones": {
+      "sysAdmin": { "label": "Systemadministration", "desc": "Verwaltung von Unternehmenssystemen und Netzwerken" },
+      "infraMgmt": { "label": "Infrastrukturmanagement", "desc": "Virtualisierung, Server und Cloud-Architektur" },
+      "softwareDev": { "label": "Softwareentwicklung", "desc": "Individuelle Geschäftsanwendungen mit C# und .NET" },
+      "erp": { "label": "ERP-Integrationen", "desc": "LOGO Tiger3 und SQL Server Lösungen" },
+      "automation": { "label": "Automatisierungssysteme", "desc": "Workflow-Orchestrierung und Aufgabenautomatisierung" },
+      "ai": { "label": "KI-Lösungen", "desc": "Intelligente Berichterstattung und KI-gestützte Tools" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Vollständiges Technologie-Ökosystem" }
+    }
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Intelligentere Systeme",
+    "titleAccent": "gemeinsam bauen.",
+    "tech": "Technologie.",
+    "infra": "Infrastruktur.",
+    "auto": "Automatisierung.",
+    "footer": "HYLAB.DEV — Technologie, Infrastruktur & Automatisierung"
+  },
+  "loading": {
+    "init": "Systeme werden initialisiert..."
+  },
+  "visitor": {
+    "visitors": "Besucher"
+  }
+}

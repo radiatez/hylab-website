@@ -1,5 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   Server,
   Code2,
@@ -11,18 +12,19 @@ import {
   BarChart3,
 } from 'lucide-react';
 
-const specializations = [
-  { icon: Server, label: 'IT Infrastructure Management' },
-  { icon: Database, label: 'ERP Integrations' },
-  { icon: BarChart3, label: 'SQL Server Solutions' },
-  { icon: Code2, label: 'Business Software Development' },
-  { icon: Workflow, label: 'Automation Systems' },
-  { icon: Monitor, label: 'Virtualization Technologies' },
-  { icon: Brain, label: 'AI Assisted Solutions' },
-  { icon: Shield, label: 'Monitoring and Reporting' },
+const specKeys = [
+  { icon: Server, key: 'infraMgmt' },
+  { icon: Database, key: 'erp' },
+  { icon: BarChart3, key: 'sql' },
+  { icon: Code2, key: 'softwareDev' },
+  { icon: Workflow, key: 'automation' },
+  { icon: Monitor, key: 'virtualization' },
+  { icon: Brain, key: 'ai' },
+  { icon: Shield, key: 'monitoring' },
 ];
 
 export default function About() {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
@@ -38,27 +40,24 @@ export default function About() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
-            <p className="text-brand-accent font-mono text-xs mb-6 tracking-[0.3em] uppercase">About HYLAB</p>
+            <p className="text-brand-accent font-mono text-xs mb-6 tracking-[0.3em] uppercase">{t('about.label')}</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-8">
-              Technology that{' '}
-              <span className="text-gradient">powers business</span>
+              {t('about.title')}{' '}
+              <span className="text-gradient">{t('about.titleAccent')}</span>
             </h2>
             <p className="text-base text-brand-muted leading-[1.8] mb-6">
-              An IT professional focused on business technology solutions, software
-              development, infrastructure architecture, automation systems and enterprise
-              operations.
+              {t('about.description')}
             </p>
             <p className="text-base text-brand-muted leading-[1.8]">
-              Every system is designed with a single principle: technology must serve the
-              business reliably, efficiently, and silently.
+              {t('about.description2')}
             </p>
           </motion.div>
 
           {/* Right - Specializations */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {specializations.map((item, i) => (
+            {specKeys.map((item, i) => (
               <motion.div
-                key={item.label}
+                key={item.key}
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.7, delay: 0.2 + i * 0.08 }}
@@ -68,7 +67,7 @@ export default function About() {
                   size={20}
                   className="text-brand-accent mb-3 group-hover:scale-110 transition-transform duration-300"
                 />
-                <p className="text-sm font-medium text-white/90">{item.label}</p>
+                <p className="text-sm font-medium text-white/90">{t(`about.specs.${item.key}`)}</p>
               </motion.div>
             ))}
           </div>

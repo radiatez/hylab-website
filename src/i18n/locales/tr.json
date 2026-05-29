@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "Hakkında",
+    "infrastructure": "Altyapı",
+    "stack": "Teknolojiler",
+    "projects": "Projeler",
+    "network": "Ağ",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "subtitle": "İş Yazılımları,\nAltyapı\nve Akıllı Otomasyon Geliştiriyoruz.",
+    "exploreBtn": "Teknolojileri Keşfet",
+    "projectsBtn": "Projeleri Gör",
+    "contactBtn": "İletişim",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT Yöneticisi",
+      "softwareDev": "Yazılım Geliştirici",
+      "infraArchitect": "Altyapı Mimarı",
+      "autoEngineer": "Otomasyon Mühendisi"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Güvenilirlik için tasarlanmış sistemler.",
+    "efficiency": "Verimlilik için tasarlanmış otomasyon.",
+    "growth": "Büyüme için tasarlanmış altyapı.",
+    "business": "İş dünyası için tasarlanmış teknoloji.",
+    "connected": "Her şey bağlı.",
+    "phases": {
+      "hardware": "DONANIM",
+      "activating": "AKTİVASYON",
+      "circuitry": "DEVRE",
+      "processing": "İŞLEM",
+      "data": "VERİ",
+      "code": "KOD",
+      "containers": "KONTEYNERLER",
+      "virtualization": "SANALLAŞTIRMA",
+      "ecosystem": "EKOSİSTEM"
+    }
+  },
+  "about": {
+    "label": "HYLAB Hakkında",
+    "title": "İş dünyasını",
+    "titleAccent": "güçlendiren teknoloji",
+    "description": "İş teknolojisi çözümleri, yazılım geliştirme, altyapı mimarisi, otomasyon sistemleri ve kurumsal operasyonlara odaklanan bir IT profesyoneli.",
+    "description2": "Her sistem tek bir ilkeyle tasarlanır: teknoloji işletmeye güvenilir, verimli ve sessiz bir şekilde hizmet etmelidir.",
+    "specs": {
+      "infraMgmt": "IT Altyapı Yönetimi",
+      "erp": "ERP Entegrasyonları",
+      "sql": "SQL Server Çözümleri",
+      "softwareDev": "İş Yazılımı Geliştirme",
+      "automation": "Otomasyon Sistemleri",
+      "virtualization": "Sanallaştırma Teknolojileri",
+      "ai": "Yapay Zeka Destekli Çözümler",
+      "monitoring": "İzleme ve Raporlama"
+    }
+  },
+  "infrastructure": {
+    "label": "Canlı Altyapı",
+    "title": "Sistem",
+    "titleAccent": "Durumu",
+    "cards": {
+      "infraStatus": "Altyapı Durumu",
+      "containers": "Çalışan Konteynerler",
+      "vms": "Sanal Makineler",
+      "backup": "Yedekleme Durumu",
+      "ssl": "SSL Sertifikaları",
+      "monitoring": "İzleme"
+    },
+    "values": {
+      "online": "ÇEVRİMİÇİ",
+      "healthy": "SAĞLIKLI",
+      "valid": "GEÇERLİ",
+      "active": "AKTİF"
+    }
+  },
+  "techStack": {
+    "label": "Teknoloji Yığını",
+    "title": "Kullanılan",
+    "titleAccent": "araçlar"
+  },
+  "projects": {
+    "label": "Proje Laboratuvarı",
+    "title": "Laboratuvarda",
+    "titleAccent": "üretildi",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "İş Yönetim Platformu",
+        "desc": "Operasyon, İK, envanter ve varlık takibi için kapsamlı şirket yönetim sistemi."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Kurumsal Görev Otomasyonu",
+        "desc": "İzleme, uyarı, yürütme geçmişi ve akıllı yeniden deneme mekanizmalarıyla otomatik SQL iş düzenlemesi."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP Çözümleri",
+        "desc": "Sorunsuz iş operasyonları için LOGO Tiger3 ERP veri ambarı üzerine inşa edilmiş özel raporlama ve entegrasyon katmanı."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Altyapı Takibi",
+        "desc": "Yaşam döngüsü yönetimi, garanti takibi ve otomatik keşif ile donanım ve yazılım envanteri."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Doğal Dil Raporlama",
+        "desc": "İş verileri üzerinde doğal dil sorguları için yapay zeka kullanarak akıllı rapor üretimi."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify Ekosistemi",
+        "desc": "Otomatik dağıtımlar, SSL yönetimi, izleme ve kesintisiz güncellemelerle tam kendine barındırılan altyapı."
+      }
+    }
+  },
+  "network": {
+    "label": "Ağ Mimarisi",
+    "title": "Altyapı",
+    "titleAccent": "Haritası",
+    "nodes": {
+      "internet": "İnternet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Yedekleme Sunucusu",
+      "monitoring": "İzleme",
+      "erp": "ERP Servisleri",
+      "ai": "AI Servisleri"
+    },
+    "layer": "Katman"
+  },
+  "timeline": {
+    "label": "Yolculuk",
+    "title": "Teknoloji",
+    "titleAccent": "Evrimi",
+    "milestones": {
+      "sysAdmin": { "label": "Sistem Yönetimi", "desc": "Kurumsal sistemleri ve ağları yönetme" },
+      "infraMgmt": { "label": "Altyapı Yönetimi", "desc": "Sanallaştırma, sunucular ve bulut mimarisi" },
+      "softwareDev": { "label": "Yazılım Geliştirme", "desc": "C# ve .NET ile özel iş uygulamaları" },
+      "erp": { "label": "ERP Entegrasyonları", "desc": "LOGO Tiger3 ve SQL Server çözümleri" },
+      "automation": { "label": "Otomasyon Sistemleri", "desc": "İş akışı düzenlemesi ve görev otomasyonu" },
+      "ai": { "label": "Yapay Zeka Çözümleri", "desc": "Akıllı raporlama ve AI destekli araçlar" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Tam teknoloji ekosistemi" }
+    }
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Daha Akıllı Sistemler",
+    "titleAccent": "İnşa Edelim.",
+    "tech": "Teknoloji.",
+    "infra": "Altyapı.",
+    "auto": "Otomasyon.",
+    "footer": "HYLAB.DEV — Teknoloji, Altyapı & Otomasyon"
+  },
+  "loading": {
+    "init": "sistemler başlatılıyor..."
+  },
+  "visitor": {
+    "visitors": "ziyaretçi"
+  }
+}

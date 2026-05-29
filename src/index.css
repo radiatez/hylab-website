@@ -27,6 +27,15 @@ body {
   color: #fff;
 }
 
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .font-mono {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 ::-webkit-scrollbar {
   width: 4px;
 }

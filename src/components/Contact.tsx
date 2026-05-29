@@ -1,8 +1,10 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Mail, ArrowUpRight } from 'lucide-react';
 
 export default function Contact() {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
@@ -19,19 +21,19 @@ export default function Contact() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-brand-accent font-mono text-xs mb-8 tracking-[0.3em] uppercase">Contact</p>
+          <p className="text-brand-accent font-mono text-xs mb-8 tracking-[0.3em] uppercase">{t('contact.label')}</p>
 
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-[1.1]">
-            Let's Build{' '}
-            <span className="text-gradient">Smarter Systems.</span>
+            {t('contact.title')}{' '}
+            <span className="text-gradient">{t('contact.titleAccent')}</span>
           </h2>
 
           <p className="text-xl font-semibold text-white mb-2">Hamza YILMAZ</p>
 
           <div className="flex justify-center gap-8 mt-6 mb-10">
-            <span className="text-sm text-brand-muted">Technology.</span>
-            <span className="text-sm text-brand-muted">Infrastructure.</span>
-            <span className="text-sm text-brand-muted">Automation.</span>
+            <span className="text-sm text-brand-muted">{t('contact.tech')}</span>
+            <span className="text-sm text-brand-muted">{t('contact.infra')}</span>
+            <span className="text-sm text-brand-muted">{t('contact.auto')}</span>
           </div>
         </motion.div>
 
@@ -59,7 +61,7 @@ export default function Contact() {
           className="mt-40 pt-8 border-t border-white/5"
         >
           <p className="text-[11px] text-brand-muted/40 font-mono tracking-wider">
-            HYLAB.DEV — Technology, Infrastructure & Automation
+            {t('contact.footer')}
           </p>
         </motion.div>
       </div>

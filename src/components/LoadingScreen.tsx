@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function LoadingScreen({ onComplete }: { onComplete: () => void }) {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       className="fixed inset-0 z-[200] bg-brand-deeper flex items-center justify-center"
@@ -43,7 +46,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          initializing systems...
+          {t('loading.init')}
         </motion.p>
       </motion.div>
     </motion.div>

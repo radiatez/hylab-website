@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "소개",
+    "infrastructure": "인프라",
+    "stack": "기술 스택",
+    "projects": "프로젝트",
+    "network": "네트워크",
+    "contact": "문의"
+  },
+  "hero": {
+    "subtitle": "비즈니스 소프트웨어,\n인프라\n그리고 지능형 자동화 구축.",
+    "exploreBtn": "기술 탐색",
+    "projectsBtn": "프로젝트 보기",
+    "contactBtn": "문의하기",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "IT 매니저",
+      "softwareDev": "소프트웨어 개발자",
+      "infraArchitect": "인프라 아키텍트",
+      "autoEngineer": "자동화 엔지니어"
+    }
+  },
+  "scrollStory": {
+    "reliability": "신뢰성을 위해 설계된 시스템.",
+    "efficiency": "효율성을 위해 설계된 자동화.",
+    "growth": "성장을 위해 설계된 인프라.",
+    "business": "비즈니스를 위해 설계된 기술.",
+    "connected": "모든 것이 연결되어 있습니다.",
+    "phases": {
+      "hardware": "하드웨어",
+      "activating": "활성화",
+      "circuitry": "회로",
+      "processing": "처리",
+      "data": "데이터",
+      "code": "코드",
+      "containers": "컨테이너",
+      "virtualization": "가상화",
+      "ecosystem": "에코시스템"
+    }
+  },
+  "about": {
+    "label": "HYLAB 소개",
+    "title": "비즈니스를",
+    "titleAccent": "구동하는 기술",
+    "description": "비즈니스 기술 솔루션, 소프트웨어 개발, 인프라 아키텍처, 자동화 시스템 및 기업 운영에 집중하는 IT 전문가.",
+    "description2": "모든 시스템은 하나의 원칙으로 설계됩니다: 기술은 비즈니스에 안정적이고, 효율적이며, 조용하게 서비스해야 합니다.",
+    "specs": {
+      "infraMgmt": "IT 인프라 관리",
+      "erp": "ERP 통합",
+      "sql": "SQL Server 솔루션",
+      "softwareDev": "비즈니스 소프트웨어 개발",
+      "automation": "자동화 시스템",
+      "virtualization": "가상화 기술",
+      "ai": "AI 지원 솔루션",
+      "monitoring": "모니터링 및 보고"
+    }
+  },
+  "infrastructure": {
+    "label": "실시간 인프라",
+    "title": "시스템",
+    "titleAccent": "상태",
+    "cards": {
+      "infraStatus": "인프라 상태",
+      "containers": "실행 중인 컨테이너",
+      "vms": "가상 머신",
+      "backup": "백업 상태",
+      "ssl": "SSL 인증서",
+      "monitoring": "모니터링"
+    },
+    "values": {
+      "online": "온라인",
+      "healthy": "정상",
+      "valid": "유효",
+      "active": "활성"
+    }
+  },
+  "techStack": {
+    "label": "기술 스택",
+    "title": "전문",
+    "titleAccent": "도구"
+  },
+  "projects": {
+    "label": "프로젝트 랩",
+    "title": "랩에서",
+    "titleAccent": "구축",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "비즈니스 관리 플랫폼",
+        "desc": "운영, HR, 재고 및 자산 추적을 위한 종합 기업 관리 시스템."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "엔터프라이즈 작업 자동화",
+        "desc": "모니터링, 알림 및 지능형 재시도 메커니즘을 갖춘 자동 SQL 작업 오케스트레이션."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "ERP 솔루션",
+        "desc": "LOGO Tiger3 ERP 데이터 웨어하우스 기반의 맞춤형 보고 및 통합 레이어."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "인프라 추적",
+        "desc": "수명 주기 관리와 자동 탐색 기능을 갖춘 완전한 하드웨어 및 소프트웨어 인벤토리."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "자연어 보고",
+        "desc": "비즈니스 데이터에 대한 자연어 쿼리를 위한 AI 활용 지능형 보고서 생성."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Docker + Coolify 에코시스템",
+        "desc": "자동 배포, SSL 관리 및 무중단 업데이트를 갖춘 완전한 셀프호스팅 인프라."
+      }
+    }
+  },
+  "network": {
+    "label": "네트워크 아키텍처",
+    "title": "인프라",
+    "titleAccent": "맵",
+    "nodes": {
+      "internet": "인터넷",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "백업 서버",
+      "monitoring": "모니터링",
+      "erp": "ERP 서비스",
+      "ai": "AI 서비스"
+    },
+    "layer": "레이어"
+  },
+  "timeline": {
+    "label": "여정",
+    "title": "기술",
+    "titleAccent": "진화",
+    "milestones": {
+      "sysAdmin": { "label": "시스템 관리", "desc": "기업 시스템 및 네트워크 관리" },
+      "infraMgmt": { "label": "인프라 관리", "desc": "가상화, 서버 및 클라우드 아키텍처" },
+      "softwareDev": { "label": "소프트웨어 개발", "desc": "C#과 .NET을 이용한 맞춤 비즈니스 애플리케이션" },
+      "erp": { "label": "ERP 통합", "desc": "LOGO Tiger3 및 SQL Server 솔루션" },
+      "automation": { "label": "자동화 시스템", "desc": "워크플로 오케스트레이션 및 작업 자동화" },
+      "ai": { "label": "AI 솔루션", "desc": "지능형 보고 및 AI 지원 도구" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "완전한 기술 에코시스템" }
+    }
+  },
+  "contact": {
+    "label": "문의",
+    "title": "더 스마트한 시스템을",
+    "titleAccent": "함께 구축합시다.",
+    "tech": "기술.",
+    "infra": "인프라.",
+    "auto": "자동화.",
+    "footer": "HYLAB.DEV — 기술, 인프라 & 자동화"
+  },
+  "loading": {
+    "init": "시스템 초기화 중..."
+  },
+  "visitor": {
+    "visitors": "방문자"
+  }
+}

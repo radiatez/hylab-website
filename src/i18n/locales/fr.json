@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "À propos",
+    "infrastructure": "Infrastructure",
+    "stack": "Technologies",
+    "projects": "Projets",
+    "network": "Réseau",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Logiciels d'entreprise,\nInfrastructure\net Automatisation Intelligente.",
+    "exploreBtn": "Explorer les Technologies",
+    "projectsBtn": "Voir les Projets",
+    "contactBtn": "Contact",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "Responsable IT",
+      "softwareDev": "Développeur Logiciel",
+      "infraArchitect": "Architecte Infrastructure",
+      "autoEngineer": "Ingénieur Automatisation"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Systèmes conçus pour la fiabilité.",
+    "efficiency": "Automatisation conçue pour l'efficacité.",
+    "growth": "Infrastructure conçue pour la croissance.",
+    "business": "Technologie conçue pour l'entreprise.",
+    "connected": "Tout est connecté.",
+    "phases": {
+      "hardware": "MATÉRIEL",
+      "activating": "ACTIVATION",
+      "circuitry": "CIRCUITS",
+      "processing": "TRAITEMENT",
+      "data": "DONNÉES",
+      "code": "CODE",
+      "containers": "CONTENEURS",
+      "virtualization": "VIRTUALISATION",
+      "ecosystem": "ÉCOSYSTÈME"
+    }
+  },
+  "about": {
+    "label": "À propos de HYLAB",
+    "title": "La technologie qui",
+    "titleAccent": "propulse les affaires",
+    "description": "Un professionnel IT spécialisé dans les solutions technologiques d'entreprise, le développement logiciel, l'architecture d'infrastructure, les systèmes d'automatisation et les opérations d'entreprise.",
+    "description2": "Chaque système est conçu avec un seul principe : la technologie doit servir l'entreprise de manière fiable, efficace et silencieuse.",
+    "specs": {
+      "infraMgmt": "Gestion d'Infrastructure IT",
+      "erp": "Intégrations ERP",
+      "sql": "Solutions SQL Server",
+      "softwareDev": "Développement Logiciel d'Entreprise",
+      "automation": "Systèmes d'Automatisation",
+      "virtualization": "Technologies de Virtualisation",
+      "ai": "Solutions Assistées par IA",
+      "monitoring": "Surveillance et Rapports"
+    }
+  },
+  "infrastructure": {
+    "label": "Infrastructure en Direct",
+    "title": "Statut",
+    "titleAccent": "Système",
+    "cards": {
+      "infraStatus": "Statut Infrastructure",
+      "containers": "Conteneurs Actifs",
+      "vms": "Machines Virtuelles",
+      "backup": "Statut Sauvegarde",
+      "ssl": "Certificats SSL",
+      "monitoring": "Surveillance"
+    },
+    "values": {
+      "online": "EN LIGNE",
+      "healthy": "SAIN",
+      "valid": "VALIDE",
+      "active": "ACTIF"
+    }
+  },
+  "techStack": {
+    "label": "Stack Technologique",
+    "title": "Les outils du",
+    "titleAccent": "métier"
+  },
+  "projects": {
+    "label": "Laboratoire de Projets",
+    "title": "Construit dans le",
+    "titleAccent": "laboratoire",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Plateforme de Gestion d'Entreprise",
+        "desc": "Système complet de gestion d'entreprise pour les opérations, RH, inventaire et suivi des actifs."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Automatisation des Tâches d'Entreprise",
+        "desc": "Orchestration automatisée des jobs SQL avec surveillance, alertes et mécanismes de reprise intelligents."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "Solutions ERP",
+        "desc": "Couche de reporting et d'intégration personnalisée sur l'entrepôt de données LOGO Tiger3 ERP."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Suivi d'Infrastructure",
+        "desc": "Inventaire complet matériel et logiciel avec gestion du cycle de vie et découverte automatisée."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Rapports en Langage Naturel",
+        "desc": "Génération intelligente de rapports utilisant l'IA pour des requêtes en langage naturel sur les données métier."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Écosystème Docker + Coolify",
+        "desc": "Infrastructure auto-hébergée complète avec déploiements automatisés et mises à jour sans interruption."
+      }
+    }
+  },
+  "network": {
+    "label": "Architecture Réseau",
+    "title": "Carte",
+    "titleAccent": "d'Infrastructure",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Serveur de Sauvegarde",
+      "monitoring": "Surveillance",
+      "erp": "Services ERP",
+      "ai": "Services IA"
+    },
+    "layer": "Couche"
+  },
+  "timeline": {
+    "label": "Parcours",
+    "title": "Évolution",
+    "titleAccent": "Technologique",
+    "milestones": {
+      "sysAdmin": { "label": "Administration Système", "desc": "Gestion des systèmes et réseaux d'entreprise" },
+      "infraMgmt": { "label": "Gestion d'Infrastructure", "desc": "Virtualisation, serveurs et architecture cloud" },
+      "softwareDev": { "label": "Développement Logiciel", "desc": "Applications métier personnalisées avec C# et .NET" },
+      "erp": { "label": "Intégrations ERP", "desc": "Solutions LOGO Tiger3 et SQL Server" },
+      "automation": { "label": "Systèmes d'Automatisation", "desc": "Orchestration de workflows et automatisation des tâches" },
+      "ai": { "label": "Solutions IA", "desc": "Rapports intelligents et outils assistés par IA" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Écosystème technologique complet" }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Construisons des Systèmes",
+    "titleAccent": "Plus Intelligents.",
+    "tech": "Technologie.",
+    "infra": "Infrastructure.",
+    "auto": "Automatisation.",
+    "footer": "HYLAB.DEV — Technologie, Infrastructure & Automatisation"
+  },
+  "loading": {
+    "init": "initialisation des systèmes..."
+  },
+  "visitor": {
+    "visitors": "visiteurs"
+  }
+}

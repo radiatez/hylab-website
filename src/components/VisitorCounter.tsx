@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Eye } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { supabase } from '../lib/supabase';
 
 export default function VisitorCounter() {
+  const { t } = useTranslation();
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
@@ -38,7 +40,7 @@ export default function VisitorCounter() {
     >
       <Eye size={13} className="text-brand-accent" />
       <span className="text-[11px] font-mono text-brand-muted">
-        <span className="text-white/90 font-medium">{count.toLocaleString()}</span> visitors
+        <span className="text-white/90 font-medium">{count.toLocaleString()}</span> {t('visitor.visitors')}
       </span>
     </motion.div>
   );

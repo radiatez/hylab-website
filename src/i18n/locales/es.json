@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "infrastructure": "Infraestructura",
+    "stack": "Tecnologías",
+    "projects": "Proyectos",
+    "network": "Red",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "subtitle": "Software Empresarial,\nInfraestructura\ny Automatización Inteligente.",
+    "exploreBtn": "Explorar Tecnologías",
+    "projectsBtn": "Ver Proyectos",
+    "contactBtn": "Contacto",
+    "terminalPrompt": "> whoami",
+    "roles": {
+      "itManager": "Director de IT",
+      "softwareDev": "Desarrollador de Software",
+      "infraArchitect": "Arquitecto de Infraestructura",
+      "autoEngineer": "Ingeniero de Automatización"
+    }
+  },
+  "scrollStory": {
+    "reliability": "Sistemas diseñados para la fiabilidad.",
+    "efficiency": "Automatización diseñada para la eficiencia.",
+    "growth": "Infraestructura diseñada para el crecimiento.",
+    "business": "Tecnología diseñada para los negocios.",
+    "connected": "Todo conectado.",
+    "phases": {
+      "hardware": "HARDWARE",
+      "activating": "ACTIVANDO",
+      "circuitry": "CIRCUITOS",
+      "processing": "PROCESANDO",
+      "data": "DATOS",
+      "code": "CÓDIGO",
+      "containers": "CONTENEDORES",
+      "virtualization": "VIRTUALIZACIÓN",
+      "ecosystem": "ECOSISTEMA"
+    }
+  },
+  "about": {
+    "label": "Acerca de HYLAB",
+    "title": "Tecnología que",
+    "titleAccent": "impulsa negocios",
+    "description": "Un profesional de IT enfocado en soluciones tecnológicas empresariales, desarrollo de software, arquitectura de infraestructura, sistemas de automatización y operaciones empresariales.",
+    "description2": "Cada sistema se diseña con un único principio: la tecnología debe servir al negocio de manera confiable, eficiente y silenciosa.",
+    "specs": {
+      "infraMgmt": "Gestión de Infraestructura IT",
+      "erp": "Integraciones ERP",
+      "sql": "Soluciones SQL Server",
+      "softwareDev": "Desarrollo de Software Empresarial",
+      "automation": "Sistemas de Automatización",
+      "virtualization": "Tecnologías de Virtualización",
+      "ai": "Soluciones Asistidas por IA",
+      "monitoring": "Monitoreo y Reportes"
+    }
+  },
+  "infrastructure": {
+    "label": "Infraestructura en Vivo",
+    "title": "Estado del",
+    "titleAccent": "Sistema",
+    "cards": {
+      "infraStatus": "Estado de Infraestructura",
+      "containers": "Contenedores Activos",
+      "vms": "Máquinas Virtuales",
+      "backup": "Estado de Respaldo",
+      "ssl": "Certificados SSL",
+      "monitoring": "Monitoreo"
+    },
+    "values": {
+      "online": "EN LÍNEA",
+      "healthy": "SALUDABLE",
+      "valid": "VÁLIDO",
+      "active": "ACTIVO"
+    }
+  },
+  "techStack": {
+    "label": "Stack Tecnológico",
+    "title": "Herramientas del",
+    "titleAccent": "oficio"
+  },
+  "projects": {
+    "label": "Laboratorio de Proyectos",
+    "title": "Construido en el",
+    "titleAccent": "laboratorio",
+    "items": {
+      "compysys": {
+        "title": "CompySys",
+        "subtitle": "Plataforma de Gestión Empresarial",
+        "desc": "Sistema integral de gestión empresarial para operaciones, RRHH, inventario y seguimiento de activos."
+      },
+      "sqlScheduler": {
+        "title": "SQL Scheduler",
+        "subtitle": "Automatización de Tareas Empresariales",
+        "desc": "Orquestación automatizada de trabajos SQL con monitoreo, alertas y mecanismos de reintento inteligentes."
+      },
+      "logoTiger": {
+        "title": "LOGO Tiger Integrations",
+        "subtitle": "Soluciones ERP",
+        "desc": "Capa personalizada de reportes e integración sobre el almacén de datos LOGO Tiger3 ERP."
+      },
+      "assetManager": {
+        "title": "IT Asset Manager",
+        "subtitle": "Seguimiento de Infraestructura",
+        "desc": "Inventario completo de hardware y software con gestión del ciclo de vida y descubrimiento automatizado."
+      },
+      "aiReporting": {
+        "title": "AI Reporting Platform",
+        "subtitle": "Reportes en Lenguaje Natural",
+        "desc": "Generación inteligente de reportes usando IA para consultas en lenguaje natural sobre datos empresariales."
+      },
+      "selfHosted": {
+        "title": "Self Hosted Platform",
+        "subtitle": "Ecosistema Docker + Coolify",
+        "desc": "Infraestructura auto-alojada completa con despliegues automatizados y actualizaciones sin tiempo de inactividad."
+      }
+    }
+  },
+  "network": {
+    "label": "Arquitectura de Red",
+    "title": "Mapa de",
+    "titleAccent": "Infraestructura",
+    "nodes": {
+      "internet": "Internet",
+      "cloudflare": "Cloudflare",
+      "fortigate": "Fortigate",
+      "proxmox": "Proxmox",
+      "coolify": "Coolify",
+      "docker": "Docker",
+      "backup": "Servidor de Respaldo",
+      "monitoring": "Monitoreo",
+      "erp": "Servicios ERP",
+      "ai": "Servicios IA"
+    },
+    "layer": "Capa"
+  },
+  "timeline": {
+    "label": "Trayectoria",
+    "title": "Evolución",
+    "titleAccent": "Tecnológica",
+    "milestones": {
+      "sysAdmin": { "label": "Administración de Sistemas", "desc": "Gestión de sistemas y redes empresariales" },
+      "infraMgmt": { "label": "Gestión de Infraestructura", "desc": "Virtualización, servidores y arquitectura cloud" },
+      "softwareDev": { "label": "Desarrollo de Software", "desc": "Aplicaciones empresariales personalizadas con C# y .NET" },
+      "erp": { "label": "Integraciones ERP", "desc": "Soluciones LOGO Tiger3 y SQL Server" },
+      "automation": { "label": "Sistemas de Automatización", "desc": "Orquestación de flujos y automatización de tareas" },
+      "ai": { "label": "Soluciones IA", "desc": "Reportes inteligentes y herramientas asistidas por IA" },
+      "hylab": { "label": "HYLAB.DEV", "desc": "Ecosistema tecnológico completo" }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Construyamos Sistemas",
+    "titleAccent": "Más Inteligentes.",
+    "tech": "Tecnología.",
+    "infra": "Infraestructura.",
+    "auto": "Automatización.",
+    "footer": "HYLAB.DEV — Tecnología, Infraestructura & Automatización"
+  },
+  "loading": {
+    "init": "inicializando sistemas..."
+  },
+  "visitor": {
+    "visitors": "visitantes"
+  }
+}
