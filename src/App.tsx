@@ -14,9 +14,12 @@ import NetworkMap from './components/NetworkMap';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import VisitorCounter from './components/VisitorCounter';
+import PrivacyBanner from './components/PrivacyBanner';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [policyOpen, setPolicyOpen] = useState(false);
   const { i18n } = useTranslation();
 
   useEffect(() => {
@@ -49,6 +52,8 @@ function App() {
         <Timeline />
         <Contact />
         <VisitorCounter />
+        <PrivacyBanner onOpenPolicy={() => setPolicyOpen(true)} />
+        <PrivacyPolicy open={policyOpen} onClose={() => setPolicyOpen(false)} />
       </motion.div>
     </>
   );

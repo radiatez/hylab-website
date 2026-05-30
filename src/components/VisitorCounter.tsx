@@ -2,12 +2,16 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Eye } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { getConsent } from './PrivacyBanner';
 
 export default function VisitorCounter() {
   const { t } = useTranslation();
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
+    const consent = getConsent();
+    if (consent !== 'accepted') return;
+
     const sessionKey = 'hylab_visited';
     const alreadyVisited = sessionStorage.getItem(sessionKey);
 
