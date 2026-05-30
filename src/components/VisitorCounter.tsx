@@ -2,32 +2,28 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Eye } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { supabase } from '../lib/supabase';
 
 export default function VisitorCounter() {
   const { t } = useTranslation();
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
-    if (!supabase) return;
-
     const sessionKey = 'hylab_visited';
     const alreadyVisited = sessionStorage.getItem(sessionKey);
 
     if (alreadyVisited) {
-      supabase
-        .from('visitor_counter')
-        .select('count')
-        .eq('id', 1)
-        .maybeSingle()
-        .then(({ data }) => {
-          if (data) setCount(data.count);
-        });
+      fetch('/api/visitors')
+        .then(res => res.json())
+        .then(data => setCount(data.count))
+        .catch(() => {});
     } else {
-      supabase.rpc('increment_visitor_count').then(({ data }) => {
-        if (data !== null) setCount(data as number);
-        sessionStorage.setItem(sessionKey, '1');
-      });
+      fetch('/api/visitors/increment', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+          setCount(data.count);
+          sessionStorage.setItem(sessionKey, '1');
+        })
+        .catch(() => {});
     }
   }, []);
 
